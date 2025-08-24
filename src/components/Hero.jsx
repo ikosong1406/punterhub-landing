@@ -4,16 +4,6 @@ import hero from "../assets/hero.png";
 import background from "../assets/background.gif";
 
 const Hero = () => {
-  const [isMuted, setIsMuted] = useState(true);
-  const videoRef = useRef(null);
-
-  const toggleMute = () => {
-    if (videoRef.current) {
-      videoRef.current.muted = !videoRef.current.muted;
-      setIsMuted(!isMuted);
-    }
-  };
-
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Video Background */}
@@ -51,13 +41,13 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
                 className="bg-[#18ffc8] text-[#09100d] px-8 py-3 rounded-md font-bold hover:bg-opacity-90 transition-colors"
-                href="https://thepunterhub.com"
+                href="https://app.thepunterhub.com/signup"
               >
                 Find Experts
               </a>
               <a
                 className="border border-[#efefef] text-[#efefef] px-8 py-3 rounded-md font-bold hover:bg-[#efefef] hover:text-[#09100d] transition-colors"
-                href="https://thepunterhub.com"
+                href="https://app.thepunterhub.com/signup"
               >
                 Become a Punter
               </a>

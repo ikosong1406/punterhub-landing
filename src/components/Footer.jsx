@@ -7,7 +7,6 @@ const Footer = () => {
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
-    setIsMenuOpen(false);
   };
 
   return (
@@ -27,7 +26,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="https://thepunterhub.com"
+                  href="https://app.thepunterhub.com/signup"
                   className="text-[#efefef] hover:text-[#fea92a] transition-colors"
                 >
                   Find Experts
@@ -49,7 +48,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#"
+                  href="https://app.thepunterhub.com/signup"
                   className="text-[#efefef] hover:text-[#fea92a] transition-colors"
                 >
                   Become a Punter

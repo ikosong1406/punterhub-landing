@@ -7,15 +7,19 @@ const CTA = () => {
           Ready to Transform Your Results?
         </h2>
         <p className="text-xl text-white mb-10 max-w-3xl mx-auto">
-          Join thousands of successful bettors and traders who are already profiting from our expert community.
+          Join thousands of successful bettors and traders who are already
+          profiting from our expert community.
         </p>
-        
+
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a className="bg-[#09100d] text-[#efefef] px-8 py-4 rounded-lg font-bold hover:bg-opacity-90 transition-colors" href="https://thepunterhub.com">
+          <a
+            className="bg-[#09100d] text-[#efefef] px-8 py-4 rounded-lg font-bold hover:bg-opacity-90 transition-colors"
+            href="https://app.thepunterhub.com/signup"
+          >
             Get Started Now
           </a>
         </div>
-        
+
         <div className="mt-10 flex flex-wrap justify-center gap-6">
           <div className="text-center">
             <div className="text-2xl font-bold text-[#18ffc8]">4.9/5</div>
