@@ -58,7 +58,7 @@ const Header = () => {
             </button>
             <a
               className="bg-[#18ffc8] text-[#09100d] px-4 py-2 rounded-md font-medium hover:bg-opacity-90 transition-colors"
-              href="https://app.thepunterhub.com/signup"
+              href="https://app.thepunterhub.com/register"
             >
               Get Started
             </a>
@@ -113,7 +113,7 @@ const Header = () => {
               </button>
               <a
                 className="bg-[#18ffc8] text-[#09100d] px-4 py-2 rounded-md font-medium hover:bg-opacity-90 transition-colors mt-2 text-center"
-                href="https://app.thepunterhub.com/signup"
+                href="https://app.thepunterhub.com/register"
               >
                 Get Started
               </a>

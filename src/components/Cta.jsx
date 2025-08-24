@@ -14,7 +14,7 @@ const CTA = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             className="bg-[#09100d] text-[#efefef] px-8 py-4 rounded-lg font-bold hover:bg-opacity-90 transition-colors"
-            href="https://app.thepunterhub.com/signup"
+            href="https://app.thepunterhub.com/register"
           >
             Get Started Now
           </a>

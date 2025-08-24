@@ -41,13 +41,13 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
                 className="bg-[#18ffc8] text-[#09100d] px-8 py-3 rounded-md font-bold hover:bg-opacity-90 transition-colors"
-                href="https://app.thepunterhub.com/signup"
+                href="https://app.thepunterhub.com/register"
               >
                 Find Experts
               </a>
               <a
                 className="border border-[#efefef] text-[#efefef] px-8 py-3 rounded-md font-bold hover:bg-[#efefef] hover:text-[#09100d] transition-colors"
-                href="https://app.thepunterhub.com/signup"
+                href="https://app.thepunterhub.com/register"
               >
                 Become a Punter
               </a>

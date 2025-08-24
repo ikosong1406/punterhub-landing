@@ -26,7 +26,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="https://app.thepunterhub.com/signup"
+                  href="https://app.thepunterhub.com/register"
                   className="text-[#efefef] hover:text-[#fea92a] transition-colors"
                 >
                   Find Experts
@@ -48,7 +48,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="https://app.thepunterhub.com/signup"
+                  href="https://app.thepunterhub.com/register"
                   className="text-[#efefef] hover:text-[#fea92a] transition-colors"
                 >
                   Become a Punter
