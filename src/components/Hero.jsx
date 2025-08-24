@@ -49,28 +49,19 @@ const Hero = () => {
 
             {/* Action buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button className="bg-[#18ffc8] text-[#09100d] px-8 py-3 rounded-md font-bold hover:bg-opacity-90 transition-colors">
+              <a
+                className="bg-[#18ffc8] text-[#09100d] px-8 py-3 rounded-md font-bold hover:bg-opacity-90 transition-colors"
+                href="https://thepunterhub.com"
+              >
                 Find Experts
-              </button>
-              <button className="border border-[#efefef] text-[#efefef] px-8 py-3 rounded-md font-bold hover:bg-[#efefef] hover:text-[#09100d] transition-colors">
+              </a>
+              <a
+                className="border border-[#efefef] text-[#efefef] px-8 py-3 rounded-md font-bold hover:bg-[#efefef] hover:text-[#09100d] transition-colors"
+                href="https://thepunterhub.com"
+              >
                 Become a Punter
-              </button>
+              </a>
             </div>
-
-            {/* <div className="flex flex-wrap gap-6 mt-10 justify-center lg:justify-start">
-              <div className="text-center">
-                <div className="text-[#18ffc8] text-2xl font-bold">500+</div>
-                <div className="text-[#efefef] text-sm">Expert Punters</div>
-              </div>
-              <div className="text-center">
-                <div className="text-[#18ffc8] text-2xl font-bold">10K+</div>
-                <div className="text-[#efefef] text-sm">Successful Signals</div>
-              </div>
-              <div className="text-center">
-                <div className="text-[#18ffc8] text-2xl font-bold">95%</div>
-                <div className="text-[#efefef] text-sm">Satisfied Users</div>
-              </div>
-            </div> */}
           </div>
 
           {/* Image/Illustration Content */}

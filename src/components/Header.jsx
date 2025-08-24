@@ -56,9 +56,9 @@ const Header = () => {
             >
               Categories
             </button>
-            <button className="bg-[#18ffc8] text-[#09100d] px-4 py-2 rounded-md font-medium hover:bg-opacity-90 transition-colors">
+            <a className="bg-[#18ffc8] text-[#09100d] px-4 py-2 rounded-md font-medium hover:bg-opacity-90 transition-colors" href='https://thepunterhub.com'>
               Get Started
-            </button>
+            </a>
           </nav>
 
           {/* Mobile menu button */}
@@ -94,9 +94,9 @@ const Header = () => {
               >
                 Categories
               </button>
-              <button className="bg-[#18ffc8] text-[#09100d] px-4 py-2 rounded-md font-medium hover:bg-opacity-90 transition-colors mt-2">
+              <a className="bg-[#18ffc8] text-[#09100d] px-4 py-2 rounded-md font-medium hover:bg-opacity-90 transition-colors mt-2 text-center" href='https://thepunterhub.com'>
                 Get Started
-              </button>
+              </a>
             </div>
           </div>
         )}

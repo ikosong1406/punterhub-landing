@@ -11,12 +11,9 @@ const CTA = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="bg-[#09100d] text-[#efefef] px-8 py-4 rounded-lg font-bold hover:bg-opacity-90 transition-colors">
-            Start Free Trial
-          </button>
-          <button className="bg-transparent border-2 border-[#efefef] text-[#09100d] px-8 py-4 rounded-lg font-bold hover:bg-[#09100d] hover:text-[#efefef] transition-colors">
-            Browse Experts
-          </button>
+          <a className="bg-[#09100d] text-[#efefef] px-8 py-4 rounded-lg font-bold hover:bg-opacity-90 transition-colors" href="https://thepunterhub.com">
+            Get Started Now
+          </a>
         </div>
         
         <div className="mt-10 flex flex-wrap justify-center gap-6">
