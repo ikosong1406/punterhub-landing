@@ -22,7 +22,7 @@ const Header = () => {
             <div className="w-3 h-3 rounded-full bg-[#18ffc8] animate-pulse"></div>
             <span className="text-[#efefef] text-sm font-medium">
               Live now: New users get 2x bonus!
-              <span className="text-xs ml-1 underline">Terms apply</span>
+              <span className="text-xs ml-1 underline">Terms & Conditions apply</span>
             </span>
           </div>
         </div>
