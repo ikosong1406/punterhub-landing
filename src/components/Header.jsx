@@ -22,7 +22,7 @@ const Header = () => {
             <div className="w-3 h-3 rounded-full bg-[#18ffc8] animate-pulse"></div>
             <span className="text-[#efefef] text-sm font-medium">
               Live now: New users get 2x bonus!
-              <span className="text-xs ml-1 underline">Terms & Conditions apply</span>
+              <a className="text-xs ml-1 underline" href="/terms">Terms & Conditions apply</a>
             </span>
           </div>
         </div>
@@ -33,7 +33,7 @@ const Header = () => {
         <div className="container mx-auto px-4 flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <img src={logo} alt="Punterhub Logo" className="h-8" />
+            <a href="/"><img src={logo} alt="Punterhub Logo" className="h-8" /></a>
           </div>
 
           {/* Desktop Navigation */}
