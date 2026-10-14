@@ -103,7 +103,7 @@ const HowItWorks = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#efefef] mb-4">
-            How PunterHub Works
+            Today Games
           </h2>
           <p className="text-xl text-[#efefef] max-w-3xl mx-auto">
             Getting started with expert signals is simple. Follow these four

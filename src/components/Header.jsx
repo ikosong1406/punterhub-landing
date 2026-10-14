@@ -1,6 +1,6 @@
 // src/components/Header.jsx
 import { useState } from "react";
-import logo from "../assets/logo1.png";
+import logo from "../assets/logo3.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,25 +15,16 @@ const Header = () => {
 
   return (
     <header className="w-full fixed top-0 z-50">
-      {/* Top section with purple background */}
-      <div className="w-full bg-[#855391] py-2">
-        <div className="container mx-auto px-4 flex items-center justify-center">
-          <div className="flex items-center space-x-2">
-            <div className="w-3 h-3 rounded-full bg-[#18ffc8] animate-pulse"></div>
-            <span className="text-[#efefef] text-sm font-medium">
-              Live now: New users get 2x bonus!
-              <a className="text-xs ml-1 underline" href="/terms">Terms & Conditions apply</a>
-            </span>
-          </div>
-        </div>
-      </div>
 
       {/* Main navigation section */}
       <div className="w-full bg-[#09100d] py-4">
         <div className="container mx-auto px-4 flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="/"><img src={logo} alt="Punterhub Logo" className="h-8" /></a>
+            <a href="/" className="flex justify-between items-center">
+              <img src={logo} alt="Logo" className="h-8" />
+              <h2 className="text-xl font-bold text-[#efefef] ml-2">TodayPrediction365</h2>
+            </a>
           </div>
 
           {/* Desktop Navigation */}
