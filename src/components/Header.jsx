@@ -42,10 +42,10 @@ const Header = () => {
               How it Works
             </button>
             <button
-              onClick={() => scrollToSection("categories")}
+              onClick={() => scrollToSection("pricing")}
               className="text-[#efefef] hover:text-[#fea92a] transition-colors"
             >
-              Categories
+              Pricing
             </button>
             <a
               className="bg-[#18ffc8] text-[#09100d] px-4 py-2 rounded-md font-medium hover:bg-opacity-90 transition-colors"
