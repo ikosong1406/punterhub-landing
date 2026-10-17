@@ -99,7 +99,7 @@ const Pricing = () => {
             Unlock Every Prediction
           </h2>
 
-          <p className="mx-auto max-w-2xl text-base leading-7 text-gray-400 text-sm">
+          <p className="mx-auto max-w-2xl text-base leading-7 text-white text-sm">
             Get full access to daily football predictions, multiple betting
             markets, and premium features — all in one plan.
           </p>
@@ -109,15 +109,8 @@ const Pricing = () => {
         <div className="mx-auto max-w-3xl overflow-hidden rounded-3xl border border-[#855391] bg-[#101a15] shadow-2xl shadow-black/30">
           {/* Card header */}
           <div className="border-b border-[#376553]/60 bg-gradient-to-br from-[#173d2b] to-[#101a15] p-5 sm:p-10">
-            <div className="flex flex-wrap items-center justify-between gap-3">
-              <div>
-                <p className="mb-2 text-sm font-semibold uppercase tracking-[0.2em] text-[#fea92a]">
-                  TodayPrediction365
-                </p>
-              </div>
-            </div>
 
-            <div className="mt-8">
+            <div className="mt-4">
               {country === null ? (
                 <p className="text-sm text-gray-400">
                   Checking your regional price...
