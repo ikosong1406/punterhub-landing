@@ -56,9 +56,8 @@ const SamplePredictions = () => {
       <div className="relative mx-auto max-w-6xl">
         {/* Heading */}
         <div className="mx-auto mb-12 max-w-3xl text-center">
-          <h2 className="text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
-            Today's Top
-            <span className="ml-4 text-[#fea92a]">Selection.</span>
+          <h2 className="text-3xl font-extrabold text-white sm:text-4xl md:text-4xl">
+            Today's Selection.
           </h2>
         </div>
 
@@ -81,7 +80,7 @@ const SamplePredictions = () => {
           <div className="p-4 sm:p-7">
 
             <div className="space-y-3">
-              {selections.slice(0, 2).map((selection, index) => (
+              {selections.slice(0, 2).map((selection) => (
                 <div
                   key={selection.match}
                   className="rounded-xl border border-[#376553]/50 bg-[#09100d] p-4 sm:p-5"
@@ -113,7 +112,7 @@ const SamplePredictions = () => {
               ))}
 
               {/* Locked remaining selections */}
-              <div className="relative overflow-hidden rounded-xl border border-[#fea92a]/40 bg-[#09100d]">
+              <div className="relative overflow-hidden rounded-xl border border-[#855391] bg-[#09100d]">
                 <div
                   className="pointer-events-none select-none p-4 sm:p-5"
                   aria-hidden="true"
@@ -157,13 +156,8 @@ const SamplePredictions = () => {
                   </div>
 
                   <h5 className="text-lg font-extrabold text-white">
-                    {selections.length - 2} Selections Locked
+                    Selections Locked
                   </h5>
-
-                  <p className="mt-2 max-w-xs text-sm leading-6 text-gray-300">
-                    Unlock the full betslip to reveal every market, selection,
-                    and individual odd.
-                  </p>
 
                   <a
                     href="#pricing"
@@ -176,23 +170,17 @@ const SamplePredictions = () => {
             </div>
 
             {/* Total odds */}
-            <div className="mt-5 rounded-xl border border-[#fea92a]/40 bg-[#fea92a]/5 p-5">
+            <div className="mt-5 rounded-xl border border-[#855391] bg-[#fea92a]/5 p-5">
               <div className="flex items-center justify-between gap-4">
                 <div>
                   <p className="text-sm font-semibold text-gray-300">
                     Total Accumulator Odds
-                  </p>
-                  <p className="mt-1 text-xs text-gray-500">
-                    Combined odds for all selections
                   </p>
                 </div>
 
                 <div className="text-right">
                   <p className="text-2xl font-extrabold text-[#fea92a] sm:text-3xl">
                     {totalOdd}
-                  </p>
-                  <p className="text-xs text-gray-500">
-                    {selections.length} selections
                   </p>
                 </div>
               </div>
@@ -202,15 +190,8 @@ const SamplePredictions = () => {
             <div className="mt-4 rounded-xl border border-[#376553]/50 bg-[#09100d] p-5">
               <div className="flex items-center justify-between gap-3">
                 <div>
-                  <p className="text-sm font-bold text-white">Betting Code</p>
-                  <p className="mt-1 text-xs text-gray-500">
-                    Bookmaker: {bookmaker}
-                  </p>
+                  <p className="text-sm font-bold text-white">{bookmaker}</p>
                 </div>
-
-                <span className="rounded-md bg-[#fea92a]/10 px-2 py-1 text-xs font-bold text-[#fea92a]">
-                  PREMIUM
-                </span>
               </div>
 
               <div className="relative mt-4 overflow-hidden rounded-lg border border-[#376553]/40 bg-[#14251b] p-4">
@@ -238,11 +219,6 @@ const SamplePredictions = () => {
                   </span>
                 </div>
               </div>
-
-              <p className="mt-3 text-center text-xs leading-5 text-gray-500">
-                Subscribe to reveal the complete betting code and remaining
-                selections.
-              </p>
             </div>
 
             {/* Bottom CTA */}
@@ -254,19 +230,9 @@ const SamplePredictions = () => {
                 Unlock Full Betslip
                 <span aria-hidden="true">→</span>
               </a>
-
-              <p className="mt-3 text-xs text-gray-500">
-                Get full access with a premium subscription.
-              </p>
             </div>
           </div>
         </div>
-
-        <p className="mx-auto mt-8 max-w-2xl text-center text-xs leading-6 text-gray-500">
-          Demonstration betslip only. Fixtures, selections, odds, bookmaker
-          code, and combined odds are illustrative and are not verified live
-          betting information. Odds can change, and betting involves risk.
-        </p>
       </div>
     </section>
   );

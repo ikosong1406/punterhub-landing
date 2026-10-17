@@ -4,6 +4,7 @@ import Features from "../components/Features";
 import Sports from "../components/Sports";
 import Sample from "../components/Sample";
 import Pricing from "../components/Pricing";
+import FAQ from "../components/FAQ";
 import Cta from "../components/Cta";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Sports />
       <Sample />
       <Pricing />
+      <FAQ />
       <Cta />
     </main>
   );

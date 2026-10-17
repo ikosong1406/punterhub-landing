@@ -30,10 +30,10 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="https://app.thepunterhub.com/register"
+                  href="https://app.todayprediction365.com/register"
                   className="text-[#efefef] hover:text-[#fea92a] transition-colors"
                 >
-                  Find Experts
+                  Join Membership
                 </a>
               </li>
               <li>

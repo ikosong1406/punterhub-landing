@@ -56,6 +56,13 @@ const backgrounds = [
 ];
 
 const Hero = () => {
+    const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section
       className="
@@ -133,7 +140,7 @@ const Hero = () => {
               Closer to the Game.
               <br />
 
-              <span className="text-[#855391]">
+              <span className="text-[#fea92a]">
                 Smarter About
               </span>
 
@@ -166,8 +173,8 @@ const Hero = () => {
                 lg:justify-start
               "
             >
-              <a
-                href="/predictions"
+              <button
+                onClick={() => scrollToSection("predictions")}
                 className="
                   rounded-lg bg-[#18ffc8]
                   px-6 py-3.5
@@ -182,10 +189,10 @@ const Hero = () => {
                 <span className="ml-2" aria-hidden="true">
                   →
                 </span>
-              </a>
+              </button>
 
-              <a
-                href="/membership"
+              <button
+                onClick={() => scrollToSection("pricing")}
                 className="
                   rounded-lg border border-white/40
                   bg-white/5 px-6 py-3.5
@@ -198,7 +205,7 @@ const Hero = () => {
                 "
               >
                 View Membership
-              </a>
+              </button>
             </div>
 
           </div>

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import background from "../assets/background.gif";
 
 const Pricing = () => {
   const [country, setCountry] = useState(null);
@@ -86,25 +87,26 @@ const Pricing = () => {
       id="pricing"
       className="relative overflow-hidden bg-[#09100d] px-4 py-20 sm:px-6"
     >
-      {/* Decorative background */}
-      <div className="pointer-events-none absolute -left-32 top-20 h-72 w-72 rounded-full bg-[#376553]/20 blur-[100px]" />
-      <div className="pointer-events-none absolute -right-32 bottom-0 h-72 w-72 rounded-full bg-[#fea92a]/10 blur-[100px]" />
+        <div className="absolute inset-0 z-0">
+             <img src={background} alt="" className="h-full w-full object-cover" />
+             <div className="absolute inset-0 bg-black/50" />
+        </div>
 
-      <div className="relative mx-auto max-w-5xl">
+      <div className="relative mx-auto max-w-5xl z-10">
         {/* Section heading */}
         <div className="mb-12 text-center">
-          <h2 className="mb-4 text-3xl font-extrabold text-[#efefef] sm:text-4xl md:text-5xl">
+          <h2 className="mb-4 text-3xl font-extrabold text-[#efefef] sm:text-4xl md:text-4xl">
             Unlock Every Prediction
           </h2>
 
-          <p className="mx-auto max-w-2xl text-base leading-7 text-gray-400 sm:text-lg">
+          <p className="mx-auto max-w-2xl text-base leading-7 text-gray-400 text-sm">
             Get full access to daily football predictions, multiple betting
             markets, and premium features — all in one plan.
           </p>
         </div>
 
         {/* Single pricing card */}
-        <div className="mx-auto max-w-3xl overflow-hidden rounded-3xl border border-[#376553] bg-[#101a15] shadow-2xl shadow-black/30">
+        <div className="mx-auto max-w-3xl overflow-hidden rounded-3xl border border-[#855391] bg-[#101a15] shadow-2xl shadow-black/30">
           {/* Card header */}
           <div className="border-b border-[#376553]/60 bg-gradient-to-br from-[#173d2b] to-[#101a15] p-6 sm:p-10">
             <div className="flex flex-wrap items-center justify-between gap-3">

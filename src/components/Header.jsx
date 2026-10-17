@@ -36,20 +36,20 @@ const Header = () => {
               Features
             </button>
             <button
-              onClick={() => scrollToSection("how-it-works")}
-              className="text-[#efefef] hover:text-[#fea92a] transition-colors"
-            >
-              How it Works
-            </button>
-            <button
               onClick={() => scrollToSection("pricing")}
               className="text-[#efefef] hover:text-[#fea92a] transition-colors"
             >
               Pricing
             </button>
+            <button
+                onClick={() => scrollToSection("faq")}
+                className="text-[#efefef] hover:text-[#fea92a] py-2 text-left transition-colors"
+              >
+                FAQ
+              </button>
             <a
               className="bg-[#18ffc8] text-[#09100d] px-4 py-2 rounded-md font-medium hover:bg-opacity-90 transition-colors"
-              href="https://app.thepunterhub.com/register"
+              href="https://app.todayprediction365.com/register"
             >
               Get Started
             </a>
@@ -91,20 +91,20 @@ const Header = () => {
                 Features
               </button>
               <button
-                onClick={() => scrollToSection("how-it-works")}
+                onClick={() => scrollToSection("pricing")}
                 className="text-[#efefef] hover:text-[#fea92a] py-2 text-left transition-colors"
               >
-                How It Works
+                Pricing
               </button>
               <button
-                onClick={() => scrollToSection("categories")}
+                onClick={() => scrollToSection("faq")}
                 className="text-[#efefef] hover:text-[#fea92a] py-2 text-left transition-colors"
               >
-                Categories
+                FAQ
               </button>
               <a
                 className="bg-[#18ffc8] text-[#09100d] px-4 py-2 rounded-md font-medium hover:bg-opacity-90 transition-colors mt-2 text-center"
-                href="https://app.thepunterhub.com/register"
+                href="https://app.todayprediction365.com/register"
               >
                 Get Started
               </a>

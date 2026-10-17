@@ -78,7 +78,7 @@ const Privacy = () => {
         "You have the right to access, correct, or delete your personal data.",
         "You have the right to restrict or object to data processing in certain circumstances.",
         "You have the right to data portability (to obtain a copy of your data in a structured format).",
-        "To exercise your rights, contact us at support@thepunterhub.com.",
+        "To exercise your rights, contact us at support@todayprediction365.com.",
       ],
     },
     {
@@ -110,7 +110,7 @@ const Privacy = () => {
       title: "11. Contact Us",
       content: [
         "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:",
-        "Email: support@thepunterhub.com.",
+        "Email: support@todayprediction365.com.",
       ],
     },
   ];
@@ -126,11 +126,11 @@ const Privacy = () => {
           {/* Date Highlight using Orange */}
           <p className="text-lg text-[#efefef] font-medium">
             Last Updated:{" "}
-            <span className="text-[#fea92a]">August 24, 2025</span>
+            <span className="text-[#fea92a]">August 24, 2026</span>
           </p>
           {/* Introductory paragraph uses white for excellent readability */}
           <p className={`mt-4 text-[${EMPHASIS_TEXT_COLOR}] leading-relaxed italic text-opacity-90`}>
-            PunterHub (“the Platform”, “we”, “us”, “our”) is committed to
+            TodayPrediction365 (“the Platform”, “we”, “us”, “our”) is committed to
             protecting your privacy. This Privacy Policy explains how we collect,
             use, disclose, and safeguard your information when you use our
             services. By using the Platform, you consent to the practices
@@ -148,7 +148,7 @@ const Privacy = () => {
             >
               <div className="flex items-center mb-3">
                 {/* Primary Blue icon */}
-                <section.icon className="text-3xl text-[#18ffc8] mr-3" />
+                <section.icon className="text-3xl text-[#fea92a] mr-3" />
                 {/* Section Title uses main White color */}
                 <h2 className="text-2xl font-bold text-[#efefef]">
                   {section.title}
@@ -188,10 +188,10 @@ const Privacy = () => {
           </p>
           <p className="text-2xl mt-3">
             <a
-              href="mailto:support@thepunterhub.com"
+              href="mailto:support@todayprediction365.com"
               className="text-[#18ffc8] hover:text-[#fea92a] font-bold transition-colors underline underline-offset-4"
             >
-              support@thepunterhub.com
+              support@todayprediction365.com
             </a>
           </p>
         </div>
