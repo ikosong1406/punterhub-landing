@@ -6,7 +6,7 @@ const CTA = () => {
         <h2 className="text-3xl md:text-3xl font-bold text-white mb-6">
          Your Next Level of Sports Analysis Starts Here.
         </h2>
-        <p className="text-lg text-white mb-10 max-w-3xl mx-auto">
+        <p className="text-sm text-white mb-10 max-w-3xl mx-auto">
           Explore our research, review our performance and choose the membership that fits the sports you follow.
         </p>
 
