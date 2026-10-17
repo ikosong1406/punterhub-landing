@@ -66,8 +66,8 @@ const Hero = () => {
   return (
     <section
       className="
-        relative min-h-[60vh] overflow-hidden bg-[#07110f]
-        sm:min-h-[60vh]
+        relative min-h-[50vh] overflow-hidden bg-[#07110f]
+        sm:min-h-[50vh]
         lg:min-h-screen
       "
     >
@@ -82,11 +82,6 @@ const Hero = () => {
           pauseOnMouseEnter: true,
         }}
         loop={true}
-        navigation={true}
-        pagination={{
-          clickable: true,
-          dynamicBullets: false,
-        }}
         speed={1200}
         className="hero-swiper absolute inset-0 h-full w-full"
       >
@@ -105,9 +100,6 @@ const Hero = () => {
 
       {/* Dark Overlay */}
       <div className="absolute inset-0 z-[1] bg-gradient-to-r from-[#050b0a]/80 via-[#050b0a]/60 to-[#050b0a]/25" />
-
-      {/* Additional Bottom Gradient */}
-      <div className="absolute inset-0 z-[1] bg-gradient-to-t from-[#050b0a]/70 via-transparent to-[#050b0a]/20" />
 
       {/* Hero Content */}
       <div
@@ -156,7 +148,6 @@ const Hero = () => {
                 text-sm leading-6 text-gray-200
                 sm:mb-8 sm:max-w-2xl
                 sm:text-lg sm:leading-8
-                md:text-xl
                 lg:mx-0
               "
             >
@@ -177,34 +168,31 @@ const Hero = () => {
                 onClick={() => scrollToSection("predictions")}
                 className="
                   rounded-lg bg-[#18ffc8]
-                  px-6 py-3.5
-                  text-center text-sm font-bold text-[#07110f]
+                  px-6 py-3
+                  text-center font-bold text-[#07110f]
                   shadow-lg shadow-[#18ffc8]/20
                   transition-all duration-300
                   hover:-translate-y-1 hover:bg-white
-                  sm:px-8 sm:py-4 sm:text-base
+                  sm:px-8 text-sm
                 "
               >
-                Explore Our Predictions
-                <span className="ml-2" aria-hidden="true">
-                  →
-                </span>
+                Explore Predictions
               </button>
 
               <button
                 onClick={() => scrollToSection("pricing")}
                 className="
                   rounded-lg border border-white/40
-                  bg-white/5 px-6 py-3.5
+                  bg-white/5 px-6 py-3
                   text-center text-sm font-bold text-white
                   backdrop-blur-sm
                   transition-all duration-300
                   hover:-translate-y-1 hover:border-[#18ffc8]
                   hover:bg-[#18ffc8] hover:text-[#07110f]
-                  sm:px-8 sm:py-4 sm:text-base
+                  sm:px-8
                 "
               >
-                View Membership
+                Join Membership
               </button>
             </div>
 

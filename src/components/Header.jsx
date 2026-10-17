@@ -23,7 +23,7 @@ const Header = () => {
           <div className="flex items-center">
             <a href="/" className="flex justify-between items-center">
               <img src={logo} alt="Logo" className="h-8" />
-              <h2 className="text-xl font-bold text-[#efefef] ml-2">TodayPrediction365</h2>
+              <h2 className="text-lg font-bold text-[#efefef] ml-1">TodayPrediction365</h2>
             </a>
           </div>
 
@@ -48,10 +48,10 @@ const Header = () => {
                 FAQ
               </button>
             <a
-              className="bg-[#18ffc8] text-[#09100d] px-4 py-2 rounded-md font-medium hover:bg-opacity-90 transition-colors"
+              className="bg-[#18ffc8] text-[#09100d] px-4 py-2 rounded-md font-medium hover:bg-opacity-90 transition-colors text-sm"
               href="https://app.todayprediction365.com/register"
             >
-              Get Started
+              Join Membership
             </a>
           </nav>
 
@@ -103,10 +103,10 @@ const Header = () => {
                 FAQ
               </button>
               <a
-                className="bg-[#18ffc8] text-[#09100d] px-4 py-2 rounded-md font-medium hover:bg-opacity-90 transition-colors mt-2 text-center"
+                className="bg-[#18ffc8] text-[#09100d] px-4 py-2 rounded-md font-medium hover:bg-opacity-90 transition-colors mt-2 text-center text-sm"
                 href="https://app.todayprediction365.com/register"
               >
-                Get Started
+                Join Membership
               </a>
             </div>
           </div>

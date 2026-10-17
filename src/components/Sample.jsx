@@ -155,15 +155,11 @@ const SamplePredictions = () => {
                     </svg>
                   </div>
 
-                  <h5 className="text-lg font-extrabold text-white">
-                    Selections Locked
-                  </h5>
-
                   <a
                     href="#pricing"
-                    className="mt-4 rounded-lg bg-[#fea92a] px-5 py-3 text-sm font-extrabold text-[#09100d] transition hover:bg-amber-400"
+                    className="mt-2 rounded-lg bg-[#fea92a] px-5 py-3 text-sm font-extrabold text-[#09100d] transition hover:bg-amber-400"
                   >
-                    Unlock Full Betslip
+                    Unlock Selections
                   </a>
                 </div>
               </div>
@@ -219,17 +215,6 @@ const SamplePredictions = () => {
                   </span>
                 </div>
               </div>
-            </div>
-
-            {/* Bottom CTA */}
-            <div className="mt-6 text-center">
-              <a
-                href="#pricing"
-                className="inline-flex w-full items-center justify-center gap-3 rounded-xl bg-[#fea92a] px-6 py-4 font-extrabold text-[#09100d] transition hover:bg-amber-400 sm:w-auto sm:min-w-[280px]"
-              >
-                Unlock Full Betslip
-                <span aria-hidden="true">→</span>
-              </a>
             </div>
           </div>
         </div>

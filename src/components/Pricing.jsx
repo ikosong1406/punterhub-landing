@@ -148,8 +148,7 @@ const Pricing = () => {
                 if (country === null) event.preventDefault();
               }}
             >
-              Subscribe Now
-              <span aria-hidden="true">→</span>
+              Join Membership
             </a>
           </div>
 
