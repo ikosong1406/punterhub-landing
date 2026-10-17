@@ -140,7 +140,7 @@ const Pricing = () => {
 
             <a
               href="https://app.todayprediction365.com"
-              className={`mt-8 flex w-full items-center justify-center gap-2 rounded-xl bg-[#18ffc8] px-6 py-4 text-base font-bold text-[#09100d] transition duration-300 hover:shadow-lg hover:shadow-[#fea92a]/20 ${
+              className={`mt-8 flex w-full items-center justify-center gap-2 rounded-xl bg-[#18ffc8] px-6 py-3 text-base font-bold text-[#09100d] transition duration-300 hover:shadow-lg hover:shadow-[#fea92a]/20 ${
                 country === null ? "pointer-events-none opacity-60" : ""
               }`}
               aria-disabled={country === null}

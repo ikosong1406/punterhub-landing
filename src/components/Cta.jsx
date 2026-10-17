@@ -12,7 +12,7 @@ const CTA = () => {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            className="bg-[#09100d] text-[#efefef] px-8 py-4 rounded-lg font-bold hover:bg-opacity-90 transition-colors"
+            className="bg-[#09100d] text-[#efefef] px-8 py-3 rounded-lg font-bold hover:bg-opacity-90 transition-colors"
             href="https://app.todayprediction365.com/register"
           >
             Join Membership

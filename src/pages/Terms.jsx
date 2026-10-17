@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 // Keep the correct import path for Font Awesome icons
 import {
   FaCheckCircle,
@@ -20,6 +20,14 @@ import {
 // blue:"#18ffc8" (Primary Accent)
 
 const Terms = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant",
+    });
+  }, []);
+
   const termsData = [
     {
       icon: FaBalanceScale,

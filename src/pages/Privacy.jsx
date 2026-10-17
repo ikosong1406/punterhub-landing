@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   FaLock,           // Information We Collect, How We Use
   FaUserShield,     // Your Rights
@@ -13,6 +13,13 @@ import {
 } from "react-icons/fa";
 
 const Privacy = () => {
+    useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant",
+    });
+  }, []);
   // Define the consistent color for high-contrast emphasis
   const EMPHASIS_TEXT_COLOR = "#efefef"; // White (improves readability over purple)
 
