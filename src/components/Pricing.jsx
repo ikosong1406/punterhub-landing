@@ -85,7 +85,7 @@ const Pricing = () => {
   return (
     <section
       id="pricing"
-      className="relative overflow-hidden bg-[#09100d] px-4 py-20 sm:px-6"
+      className="relative overflow-hidden bg-[#09100d] px-3.5 py-20 sm:px-6"
     >
         <div className="absolute inset-0 z-0">
              <img src={background} alt="" className="h-full w-full object-cover" />
@@ -108,17 +108,13 @@ const Pricing = () => {
         {/* Single pricing card */}
         <div className="mx-auto max-w-3xl overflow-hidden rounded-3xl border border-[#855391] bg-[#101a15] shadow-2xl shadow-black/30">
           {/* Card header */}
-          <div className="border-b border-[#376553]/60 bg-gradient-to-br from-[#173d2b] to-[#101a15] p-6 sm:p-10">
+          <div className="border-b border-[#376553]/60 bg-gradient-to-br from-[#173d2b] to-[#101a15] p-5 sm:p-10">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div>
                 <p className="mb-2 text-sm font-semibold uppercase tracking-[0.2em] text-[#fea92a]">
                   TodayPrediction365
                 </p>
               </div>
-
-              <span className="rounded-full px-3 py-1.5 text-xs font-bold text-[#855391]">
-                FULL ACCESS
-              </span>
             </div>
 
             <div className="mt-8">
@@ -153,7 +149,7 @@ const Pricing = () => {
           </div>
 
           {/* Benefits */}
-          <div className="p-6 sm:p-10">
+          <div className="p-4 sm:p-10">
             <h4 className="mb-6 text-lg font-bold text-white">
               Everything included in your plan
             </h4>

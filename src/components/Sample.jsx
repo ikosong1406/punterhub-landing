@@ -63,21 +63,9 @@ const SamplePredictions = () => {
 
         {/* Betslip */}
         <div className="mx-auto max-w-3xl overflow-hidden rounded-2xl border border-[#376553] bg-[#101a15] shadow-2xl shadow-black/30">
-          {/* Betslip header */}
-          <div className="flex items-center justify-between gap-4 border-b border-[#376553]/60 bg-[#14251b] px-5 py-5 sm:px-7">
-            <div>
-              <h3 className="text-lg font-extrabold text-white sm:text-xl">
-                Today's Accumulator
-              </h3>
-            </div>
-
-            <span className="rounded-lg border border-[#fea92a]/40 bg-[#fea92a]/10 px-3 py-2 text-xs font-bold text-[#fea92a]">
-              {selections.length} SELECTIONS
-            </span>
-          </div>
 
           {/* First two visible selections */}
-          <div className="p-4 sm:p-7">
+          <div className="p-1">
 
             <div className="space-y-3">
               {selections.slice(0, 2).map((selection) => (
